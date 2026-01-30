@@ -3,7 +3,13 @@
     "allow": [
       "Bash(git init:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh auth:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(git -c http.version=HTTP/1.1 push -u origin main)",
+      "Bash(ssh-add:*)",
+      "Bash(ssh:*)"
     ]
   }
 }
